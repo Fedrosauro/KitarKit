@@ -1,0 +1,16 @@
+name: kitar-kit-env
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - pytorch
+  - torchvision
+  - torchaudio
+  - librosa
+  - pillow
+  - pip:
+    - streamlit

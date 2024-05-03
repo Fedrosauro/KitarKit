@@ -108,17 +108,17 @@ with st.container():
             if "distortion" in words:
                 st.image("./images/pedal_2.jpg")
             else:
-                st.image("./images/pedal.jpg")
+                st.image("./images/pedal.jpeg")
         with col2:
             st.markdown("<h4 style='text-align: center;'>reverb</h4>", unsafe_allow_html=True)
             if "reverb" in words:
                 st.image("./images/pedal_1.jpg")
             else:
-                st.image("./images/pedal.jpg")
+                st.image("./images/pedal.jpeg")
         with col3:
             st.markdown("<h4 style='text-align: center;'>delay</h4>", unsafe_allow_html=True)
             if "delay" in words:
-                st.image("./images/pedal.jpg")
+                st.image("./images/pedal.jpeg")
             else:
                 st.image("./images/pedal.jpeg")
         with col4:
@@ -126,7 +126,7 @@ with st.container():
             if "modulation" in words:
                 st.image("./images/pedal_4.jpg")
             else:
-                st.image("./images/pedal.jpg")
+                st.image("./images/pedal.jpeg")
     else:
         col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
         with col1:
