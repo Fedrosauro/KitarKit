@@ -25,6 +25,12 @@ Due to the dataset limitations, the model in this repo can currently recognize j
 
 Additionally, a small web app has been developed to showcase the model's response when given random guitar sounds sourced from the internet.
 
+In order to have the web app running you need conda and then:
+
+1. conda env create -f environment.yml
+2. conda activate kitar-kit-env
+3. streamlit run .\KitaraKitWebApp.py
+
 --- 
 
 ![EC_logo__white_bg__1200_px](https://github.com/Fedrosauro/KitarKit/assets/67149530/2f2bc9e4-d1f9-468a-9a26-43ca3a0c2a8e)
